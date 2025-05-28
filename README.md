@@ -1,35 +1,31 @@
-### Coronary Heart Disease (CHD) Prediction Using Logistic Regression
-# Project Overview
-This project implements a robust machine learning pipeline to **predict the presence of Coronary Heart Disease (CHD)** based on clinical and lifestyle parameters. It leverages logistic regression with hyperparameter tuning and advanced techniques to handle imbalanced data, ensuring reliable and interpretable predictions.
+# **Coronary Heart Disease (CHD) Prediction Using Logistic Regression**
 
-# Key Features
-**Comprehensive Data Preprocessing:** Cleans and encodes categorical features, handles missing values.
+## **Project Overview**
+This project implements a robust machine learning pipeline to **predict the presence of Coronary Heart Disease (CHD)** based on clinical and lifestyle parameters. It leverages **logistic regression** with **hyperparameter tuning** and advanced techniques to handle **imbalanced data**, ensuring **reliable and interpretable predictions**.
 
-**Feature Scaling:** Applies StandardScaler for normalized inputs to the model.
+## **Key Features**
+- **Comprehensive Data Preprocessing:** Cleans and encodes categorical features, handles missing values.
+- **Feature Scaling:** Applies **StandardScaler** for normalized inputs to the model.
+- **Imbalanced Data Handling:** Uses **SMOTE (Synthetic Minority Over-sampling Technique)** to balance the dataset.
+- **Hyperparameter Tuning:** Employs **GridSearchCV** to optimize Logistic Regression parameters.
+- **Model Evaluation:** Reports accuracy, detailed classification metrics, and displays a confusion matrix heatmap.
+- **Model Persistence:** Saves trained model and scaler for future prediction without retraining.
+- **Interactive Manual Input Mode:** Predict CHD based on user-provided data when the dataset is unavailable.
 
-**Imbalanced Data Handling:** Uses SMOTE (Synthetic Minority Over-sampling Technique) to balance the dataset.
-
-**Hyperparameter Tuning:** Employs GridSearchCV to optimize Logistic Regression parameters.
-
-**Model Evaluation:** Reports accuracy, detailed classification metrics, and displays a confusion matrix heatmap.
-
-**Model Persistence:** Saves trained model and scaler for future prediction without retraining.
-
-**Interactive Manual Input Mode:** Predict CHD based on user-provided data when the dataset is unavailable.
-
-# Dataset
-The model is trained on a dataset (CHDdata.csv) with the following columns:
+## **Dataset**
+The model is trained on a dataset (`CHDdata.csv`) with the following columns:
 
 ![image](https://github.com/user-attachments/assets/795919bd-e3a7-405d-8afd-705b72fdaef4)
 
+## **How to Use**
 
-# How to Use
-**1. Training & Evaluation (with Dataset)**
-Place CHDdata.csv in the project directory.
+### **1. Training & Evaluation (with Dataset)**
+- Place `CHDdata.csv` in the project directory.
+- Run the script:
 
-Run the script:
+```bash
+$ python chd_prediction.py
 
-![image](https://github.com/user-attachments/assets/6807153b-a1e4-4f18-97ad-146dd0dbedea)
 
 The model will train, tune, and display evaluation results.
 
