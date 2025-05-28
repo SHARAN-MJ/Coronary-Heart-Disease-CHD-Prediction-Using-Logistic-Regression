@@ -101,5 +101,6 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 └── README.md                  # Project documentation
 ```
 # 🧑‍💻 Author
-SHARAN MJ
+**SHARAN MJ**
+
 Feel free to reach out: sharanmaran1349@gmail.com
