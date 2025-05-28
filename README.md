@@ -74,7 +74,7 @@ Age: 54
 📊 Probability of CHD: 78.45%
 ```
 
-## ** Dependencies**
+##  Dependencies
 
 - **Python 3.x**
 - **pandas**
@@ -92,7 +92,7 @@ Install via pip:
 
 pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 
-## ** Project Structure **
+##  Project Structure 
 ```
 ├── CHDdata.csv                # Dataset file (CSV)
 ├── chd_prediction.py          # Main Python script containing model & prediction code
