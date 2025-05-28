@@ -40,8 +40,8 @@ The saved model and scaler will be used to predict CHD presence and probability.
 
 ## Example Workflow
 *bash*
-
-## python chd_prediction.py
+```
+**python chd_prediction.py**
 ✅ Dataset found. Proceeding with training...
 
 ✅ Logistic Regression Accuracy: 0.8542
@@ -72,7 +72,7 @@ Age: 54
 
 🔍 Prediction: CHD Present
 📊 Probability of CHD: 78.45%
-
+```
 
 ## ** Dependencies**
 
@@ -84,7 +84,7 @@ Age: 54
 - **matplotlib**
 - **seaborn**
 - **joblib**
-ib
+
 
 Install via pip:
 
@@ -93,13 +93,13 @@ Install via pip:
 pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 
 ## ** Project Structure **
-
+```
 ├── CHDdata.csv                # Dataset file (CSV)
 ├── chd_prediction.py          # Main Python script containing model & prediction code
 ├── chd_logistic_model.pkl     # Saved Logistic Regression model (post-training)
 ├── scaler.pkl                 # Saved StandardScaler (post-training)
 └── README.md                  # Project documentation
-
+```
 # 🧑‍💻 Author
 SHARAN MJ
 Feel free to reach out: sharanmaran1349@gmail.com
