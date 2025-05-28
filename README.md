@@ -100,6 +100,8 @@ pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 ├── scaler.pkl                 # Saved StandardScaler (post-training)
 └── README.md                  # Project documentation
 ```
+---
+
 # 🧑‍💻 Author
 **SHARAN MJ**
 
