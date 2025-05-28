@@ -74,22 +74,17 @@ Age: 54
 📊 Probability of CHD: 78.45%
 
 
-## Dependencies
-Python 3.x
+## ** Dependencies**
 
-pandas
-
-numpy
-
-scikit-learn
-
-imbalanced-learn
-
-matplotlib
-
-seaborn
-
-joblib
+- **Python 3.x**
+- **pandas**
+- **numpy**
+- **scikit-learn**
+- **imbalanced-learn**
+- **matplotlib**
+- **seaborn**
+- **joblib**
+ib
 
 Install via pip:
 
