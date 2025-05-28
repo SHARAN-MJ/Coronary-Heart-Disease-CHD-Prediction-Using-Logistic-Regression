@@ -23,7 +23,7 @@ The model is trained on a dataset (`CHDdata.csv`) with the following columns:
 - Place `CHDdata.csv` in the project directory.
 - Run the script:
 
-```bash
+bash
 $ python chd_prediction.py
 
 
@@ -41,7 +41,7 @@ The saved model and scaler will be used to predict CHD presence and probability.
 ## Example Workflow
 *bash*
 
-$ python chd_prediction.py
+## python chd_prediction.py
 ✅ Dataset found. Proceeding with training...
 
 ✅ Logistic Regression Accuracy: 0.8542
@@ -92,9 +92,7 @@ Install via pip:
 
 pip install pandas numpy scikit-learn imbalanced-learn matplotlib seaborn joblib
 
-📚 Project Structure
-bash
-
+## ** Project Structure **
 
 ├── CHDdata.csv                # Dataset file (CSV)
 ├── chd_prediction.py          # Main Python script containing model & prediction code
